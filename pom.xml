@@ -60,8 +60,7 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!--
-		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -79,7 +78,6 @@
 			<groupId>io.rest-assured</groupId>
 			<artifactId>rest-assured</artifactId>
 			<version>${restassured.version}</version>
-			<scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
