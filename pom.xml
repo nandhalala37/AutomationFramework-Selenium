@@ -13,7 +13,7 @@
 		<maven.compiler.plugin.version>3.14.1</maven.compiler.plugin.version>
 		<maven.failsafe.plugin.version>3.5.4</maven.failsafe.plugin.version>
 		<maven.surefire.plugin.version>3.5.4</maven.surefire.plugin.version>
-		
+
 		<!-- dependencies version -->
 		<testng.xml.file>testng.xml</testng.xml.file>
 		<selenium.version>4.36.0</selenium.version>
@@ -24,6 +24,7 @@
 		<apachepoi.version>5.4.1</apachepoi.version>
 		<gson.version>2.13.2</gson.version>
 		<snakeyaml.version>2.5</snakeyaml.version>
+		<jackson.version>2.20.0</jackson.version>
 	</properties>
 
 	<build>
@@ -60,7 +61,8 @@
 		</plugins>
 	</build>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!--
+		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -114,6 +116,12 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>${gson.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
 		<dependency>

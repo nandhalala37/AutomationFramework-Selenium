@@ -1,0 +1,29 @@
+# Ignore Maven target folder
+/target/
+
+# Ignore IntelliJ IDEA files
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+
+# Ignore Eclipse files
+/.metadata/
+/bin/
+/*.launch
+
+# Ignore logs
+*.log
+
+# Ignore Reports and Screenshots
+/Reports/
+/ScreenShots/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.DS_Store
+
+# Ignore config files with sensitive data (optional)
+/src/test/resources/config.properties
